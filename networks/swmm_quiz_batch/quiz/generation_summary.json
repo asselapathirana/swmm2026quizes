@@ -1,0 +1,619 @@
+{
+  "base_inp": "networks/canthosimpl.1.inp",
+  "output_dir": "networks/swmm_quiz_batch",
+  "count": 40,
+  "seed": 2026,
+  "slots_per_variant": 10,
+  "flow_units": "CMS",
+  "area_units": "hectares",
+  "n_area_edits_per_variant": 2,
+  "n_diameter_edits_per_variant": 2,
+  "variant_url_template": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/{variant_file}",
+  "files": {
+    "students_csv": "networks/swmm_quiz_batch/quiz/questions_students.csv",
+    "answer_key_csv": "networks/swmm_quiz_batch/quiz/answer_key_private.csv",
+    "moodle_cloze_csv": "networks/swmm_quiz_batch/quiz/moodle_cloze_private.csv"
+  },
+  "variants": [
+    {
+      "variant_id": "canthosimpl_10001",
+      "variant_file": "canthosimpl.10001.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10001.inp",
+      "question_id": "canthosimpl_10001_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_258": 7.5704,
+        "S_286": 15.2257
+      },
+      "edited_diameters": {
+        "C_502": 0.5398,
+        "C_412": 0.7914
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10002",
+      "variant_file": "canthosimpl.10002.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10002.inp",
+      "question_id": "canthosimpl_10002_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_257": 11.2458,
+        "S_288": 22.4
+      },
+      "edited_diameters": {
+        "C_456": 0.9996,
+        "C_417": 0.7684
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10003",
+      "variant_file": "canthosimpl.10003.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10003.inp",
+      "question_id": "canthosimpl_10003_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_259": 11.1062,
+        "S_295": 17.7161
+      },
+      "edited_diameters": {
+        "C_455": 0.403,
+        "C_405": 0.3363
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10004",
+      "variant_file": "canthosimpl.10004.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10004.inp",
+      "question_id": "canthosimpl_10004_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_295": 19.4217,
+        "S_288": 26.807
+      },
+      "edited_diameters": {
+        "C_502": 0.5841,
+        "C_405": 0.4933
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10005",
+      "variant_file": "canthosimpl.10005.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10005.inp",
+      "question_id": "canthosimpl_10005_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_296": 14.3796,
+        "S_288": 25.7945
+      },
+      "edited_diameters": {
+        "C_463": 0.3754,
+        "C_419": 0.9279
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10006",
+      "variant_file": "canthosimpl.10006.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10006.inp",
+      "question_id": "canthosimpl_10006_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_259": 9.0425,
+        "S_295": 16.3213
+      },
+      "edited_diameters": {
+        "C_462": 0.4447,
+        "C_463": 0.404
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10007",
+      "variant_file": "canthosimpl.10007.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10007.inp",
+      "question_id": "canthosimpl_10007_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_289": 48.7561,
+        "S_263": 7.9
+      },
+      "edited_diameters": {
+        "C_462": 0.4062,
+        "C_416": 0.6631
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10008",
+      "variant_file": "canthosimpl.10008.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10008.inp",
+      "question_id": "canthosimpl_10008_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_257": 10.4734,
+        "S_288": 25.2815
+      },
+      "edited_diameters": {
+        "C_411": 1.366,
+        "C_417": 0.9843
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10009",
+      "variant_file": "canthosimpl.10009.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10009.inp",
+      "question_id": "canthosimpl_10009_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_295": 15.3688,
+        "S_259": 10.348
+      },
+      "edited_diameters": {
+        "C_502": 0.6104,
+        "C_455": 0.461
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10010",
+      "variant_file": "canthosimpl.10010.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10010.inp",
+      "question_id": "canthosimpl_10010_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_258": 7.7138,
+        "S_257": 14.0785
+      },
+      "edited_diameters": {
+        "C_457": 0.1623,
+        "C_502": 0.5071
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10011",
+      "variant_file": "canthosimpl.10011.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10011.inp",
+      "question_id": "canthosimpl_10011_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_295": 19.8165,
+        "S_289": 39.7253
+      },
+      "edited_diameters": {
+        "C_417": 0.724,
+        "C_459": 0.6719
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10012",
+      "variant_file": "canthosimpl.10012.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10012.inp",
+      "question_id": "canthosimpl_10012_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_296": 11.7304,
+        "S_261": 9.4189
+      },
+      "edited_diameters": {
+        "C_463": 0.4614,
+        "C_405": 0.413
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10013",
+      "variant_file": "canthosimpl.10013.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10013.inp",
+      "question_id": "canthosimpl_10013_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_287": 22.3255,
+        "S_263": 6.7587
+      },
+      "edited_diameters": {
+        "C_416": 0.9997,
+        "C_457": 0.2333
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10014",
+      "variant_file": "canthosimpl.10014.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10014.inp",
+      "question_id": "canthosimpl_10014_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_258": 7.7682,
+        "S_261": 10.8421
+      },
+      "edited_diameters": {
+        "C_418": 0.8724,
+        "C_405": 0.3934
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10015",
+      "variant_file": "canthosimpl.10015.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10015.inp",
+      "question_id": "canthosimpl_10015_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_295": 19.317,
+        "S_263": 7.381
+      },
+      "edited_diameters": {
+        "C_417": 0.6877,
+        "C_455": 0.4607
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10016",
+      "variant_file": "canthosimpl.10016.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10016.inp",
+      "question_id": "canthosimpl_10016_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_263": 8.1694,
+        "S_295": 16.004
+      },
+      "edited_diameters": {
+        "C_411": 1.0983,
+        "C_455": 0.3225
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10017",
+      "variant_file": "canthosimpl.10017.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10017.inp",
+      "question_id": "canthosimpl_10017_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_296": 15.7327,
+        "S_289": 42.3618
+      },
+      "edited_diameters": {
+        "C_457": 0.2189,
+        "C_456": 0.8615
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10018",
+      "variant_file": "canthosimpl.10018.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10018.inp",
+      "question_id": "canthosimpl_10018_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_287": 28.7368,
+        "S_263": 6.6768
+      },
+      "edited_diameters": {
+        "C_457": 0.1621,
+        "C_410": 0.4452
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10019",
+      "variant_file": "canthosimpl.10019.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10019.inp",
+      "question_id": "canthosimpl_10019_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_258": 5.1621,
+        "S_259": 9.7305
+      },
+      "edited_diameters": {
+        "C_412": 0.8549,
+        "C_502": 0.619
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10020",
+      "variant_file": "canthosimpl.10020.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10020.inp",
+      "question_id": "canthosimpl_10020_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_287": 26.5361,
+        "S_261": 9.9562
+      },
+      "edited_diameters": {
+        "C_413": 0.9765,
+        "C_416": 0.8862
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10021",
+      "variant_file": "canthosimpl.10021.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10021.inp",
+      "question_id": "canthosimpl_10021_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_263": 7.8913,
+        "S_286": 13.2783
+      },
+      "edited_diameters": {
+        "C_413": 0.8741,
+        "C_411": 1.4791
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10022",
+      "variant_file": "canthosimpl.10022.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10022.inp",
+      "question_id": "canthosimpl_10022_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_257": 13.9862,
+        "S_261": 10.954
+      },
+      "edited_diameters": {
+        "C_502": 0.4898,
+        "C_413": 0.9914
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10023",
+      "variant_file": "canthosimpl.10023.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10023.inp",
+      "question_id": "canthosimpl_10023_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_261": 9.2349,
+        "S_259": 7.5425
+      },
+      "edited_diameters": {
+        "C_459": 0.5757,
+        "C_413": 0.984
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10024",
+      "variant_file": "canthosimpl.10024.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10024.inp",
+      "question_id": "canthosimpl_10024_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_258": 6.6846,
+        "S_257": 14.1326
+      },
+      "edited_diameters": {
+        "C_417": 0.777,
+        "C_455": 0.4934
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10025",
+      "variant_file": "canthosimpl.10025.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10025.inp",
+      "question_id": "canthosimpl_10025_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_257": 13.8398,
+        "S_295": 17.109
+      },
+      "edited_diameters": {
+        "C_417": 0.7428,
+        "C_416": 0.6882
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10026",
+      "variant_file": "canthosimpl.10026.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10026.inp",
+      "question_id": "canthosimpl_10026_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_259": 7.6402,
+        "S_286": 10.7928
+      },
+      "edited_diameters": {
+        "C_413": 0.8804,
+        "C_416": 0.8936
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10027",
+      "variant_file": "canthosimpl.10027.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10027.inp",
+      "question_id": "canthosimpl_10027_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_258": 7.5416,
+        "S_286": 14.2676
+      },
+      "edited_diameters": {
+        "C_463": 0.3886,
+        "C_412": 0.8621
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10028",
+      "variant_file": "canthosimpl.10028.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10028.inp",
+      "question_id": "canthosimpl_10028_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_295": 21.1015,
+        "S_286": 10.6286
+      },
+      "edited_diameters": {
+        "C_411": 1.2272,
+        "C_502": 0.4702
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10029",
+      "variant_file": "canthosimpl.10029.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10029.inp",
+      "question_id": "canthosimpl_10029_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_286": 11.3823,
+        "S_259": 10.4352
+      },
+      "edited_diameters": {
+        "C_417": 0.7655,
+        "C_462": 0.4617
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10030",
+      "variant_file": "canthosimpl.10030.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10030.inp",
+      "question_id": "canthosimpl_10030_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_286": 10.9561,
+        "S_263": 7.25
+      },
+      "edited_diameters": {
+        "C_462": 0.3622,
+        "C_419": 0.99
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10031",
+      "variant_file": "canthosimpl.10031.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10031.inp",
+      "question_id": "canthosimpl_10031_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_286": 12.546,
+        "S_258": 6.8996
+      },
+      "edited_diameters": {
+        "C_463": 0.3308,
+        "C_417": 0.7839
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10032",
+      "variant_file": "canthosimpl.10032.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10032.inp",
+      "question_id": "canthosimpl_10032_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_288": 26.7169,
+        "S_286": 13.7528
+      },
+      "edited_diameters": {
+        "C_405": 0.4389,
+        "C_410": 0.4896
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10033",
+      "variant_file": "canthosimpl.10033.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10033.inp",
+      "question_id": "canthosimpl_10033_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_289": 34.3437,
+        "S_261": 11.2245
+      },
+      "edited_diameters": {
+        "C_405": 0.4898,
+        "C_412": 0.7143
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10034",
+      "variant_file": "canthosimpl.10034.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10034.inp",
+      "question_id": "canthosimpl_10034_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_257": 10.1499,
+        "S_263": 7.5738
+      },
+      "edited_diameters": {
+        "C_459": 0.7469,
+        "C_410": 0.4979
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10035",
+      "variant_file": "canthosimpl.10035.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10035.inp",
+      "question_id": "canthosimpl_10035_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_257": 11.6774,
+        "S_288": 22.5952
+      },
+      "edited_diameters": {
+        "C_413": 0.9411,
+        "C_405": 0.4039
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10036",
+      "variant_file": "canthosimpl.10036.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10036.inp",
+      "question_id": "canthosimpl_10036_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_296": 14.7278,
+        "S_289": 46.7274
+      },
+      "edited_diameters": {
+        "C_455": 0.4954,
+        "C_463": 0.4272
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10037",
+      "variant_file": "canthosimpl.10037.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10037.inp",
+      "question_id": "canthosimpl_10037_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_289": 48.0143,
+        "S_296": 16.9617
+      },
+      "edited_diameters": {
+        "C_458": 0.3252,
+        "C_412": 0.7267
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10038",
+      "variant_file": "canthosimpl.10038.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10038.inp",
+      "question_id": "canthosimpl_10038_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_296": 14.6686,
+        "S_287": 28.3872
+      },
+      "edited_diameters": {
+        "C_417": 0.6951,
+        "C_413": 0.6918
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10039",
+      "variant_file": "canthosimpl.10039.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10039.inp",
+      "question_id": "canthosimpl_10039_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_288": 26.6546,
+        "S_259": 10.3961
+      },
+      "edited_diameters": {
+        "C_416": 0.789,
+        "C_410": 0.4321
+      }
+    },
+    {
+      "variant_id": "canthosimpl_10040",
+      "variant_file": "canthosimpl.10040.inp",
+      "variant_url": "https://raw.githubusercontent.com/asselapathirana/swmm2026quizes/refs/heads/main/networks/swmm_quiz_batch/variants/canthosimpl.10040.inp",
+      "question_id": "canthosimpl_10040_Q1",
+      "slot_count": 10,
+      "edited_areas": {
+        "S_286": 12.8104,
+        "S_259": 7.7661
+      },
+      "edited_diameters": {
+        "C_502": 0.4794,
+        "C_410": 0.4719
+      }
+    }
+  ]
+}
