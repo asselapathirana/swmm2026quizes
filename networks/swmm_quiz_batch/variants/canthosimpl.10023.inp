@@ -44,17 +44,17 @@ RG_CanTho        VOLUME    1:00   1.0    TIMESERIES Rain_hour_2009
 ;;                                                 Total    Pcnt.             Pcnt.    Curb     Snow    
 ;;Name           Raingage         Outlet           Area     Imperv   Width    Slope    Length   Pack    
 ;;-------------- ---------------- ---------------- -------- -------- -------- -------- -------- --------
-S_257            RG_CanTho        J_346            11.49    65       400      0.1      0                        
-S_258            RG_CanTho        J_345            6.32     65       323      0.1      0                        
-S_259 RG_CanTho J_342 7.5425 65 270 0.1 0
-S_261 RG_CanTho J_327 9.2349 65 273 0.1 0
-S_263            RG_CanTho        J_337            6.70     65       420      0.1      0                        
-S_286            RG_CanTho        J_324            12.66    65       675      0.1      0                        
-S_287            RG_CanTho        J_326            25.41    65       1022     0.1      0                        
-S_288            RG_CanTho        J_364            23.42    65       820      0.1      0                        
-S_289            RG_CanTho        J_347            39.47    65       692      0.1      0                        
-S_295            RG_CanTho        J_369            18.34    65       602      0.1      0                        
-S_296            RG_CanTho        J_350            13.67    65       478      0.1      0                        
+S_257 RG_CanTho J_346 9.8022 65 400 0.1 0
+S_258 RG_CanTho J_345 6.457 65 323 0.1 0
+S_259 RG_CanTho J_342 7.676 65 270 0.1 0
+S_261 RG_CanTho J_327 11.2502 65 273 0.1 0
+S_263 RG_CanTho J_337 6.5328 65 420 0.1 0
+S_286 RG_CanTho J_324 10.241 65 675 0.1 0
+S_287 RG_CanTho J_326 26.2094 65 1022 0.1 0
+S_288 RG_CanTho J_364 25.7912 65 820 0.1 0
+S_289 RG_CanTho J_347 48.9136 65 692 0.1 0
+S_295 RG_CanTho J_369 15.1403 65 602 0.1 0
+S_296 RG_CanTho J_350 12.5133 65 478 0.1 0
 
 [SUBAREAS]
 ;;Subcatchment   N-Imperv   N-Perv     S-Imperv   S-Perv     PctZero    RouteTo    PctRouted 
@@ -160,23 +160,23 @@ P_PS2            J_371            O_41             PS2              ON     0    
 [XSECTIONS]
 ;;Link           Shape        Geom1            Geom2      Geom3      Geom4      Barrels   
 ;;-------------- ------------ ---------------- ---------- ---------- ---------- ----------
-C_405            CIRCULAR     .4               0          0          0          1                    
-C_410            CIRCULAR     .4               0          0          0          1                    
-C_411            CIRCULAR     1.2              0          0          0          1                    
+C_405 CIRCULAR 0.4525 0 0 0 1
+C_410 CIRCULAR 0.4866 0 0 0 1
+C_411 CIRCULAR 1.4889 0 0 0 1
 C_412            CIRCULAR     0.8              0          0          0          1                    
-C_413 CIRCULAR 0.984 0 0 0 1
-C_416            CIRCULAR     0.8              0          0          0          1                    
-C_417            CIRCULAR     0.8              0          0          0          1                    
-C_418            CIRCULAR     0.8              0          0          0          1                    
-C_419            CIRCULAR     0.8              0          0          0          1                    
-C_455            CIRCULAR     0.4              0          0          0          1                    
-C_456            CIRCULAR     0.8              0          0          0          2                    
+C_413 CIRCULAR 0.6525 0 0 0 1
+C_416 CIRCULAR 0.908 0 0 0 1
+C_417 CIRCULAR 0.8255 0 0 0 1
+C_418 CIRCULAR 0.6457 0 0 0 1
+C_419 CIRCULAR 0.9541 0 0 0 1
+C_455 CIRCULAR 0.3385 0 0 0 1
+C_456 CIRCULAR 0.8642 0 0 0 2
 C_457            CIRCULAR     0.2              0          0          0          1                    
-C_458            CIRCULAR     0.4              0          0          0          1                    
-C_459 CIRCULAR 0.5757 0 0 0 1
+C_458 CIRCULAR 0.3392 0 0 0 1
+C_459 CIRCULAR 0.7055 0 0 0 1
 C_462            CIRCULAR     0.4              0          0          0          1                    
-C_463            CIRCULAR     0.4              0          0          0          1                    
-C_502            CIRCULAR     0.5              0          0          0          1                    
+C_463 CIRCULAR 0.4279 0 0 0 1
+C_502 CIRCULAR 0.4229 0 0 0 1
 
 [LOSSES]
 ;;Link           Inlet      Outlet     Average    Flap Gate 
